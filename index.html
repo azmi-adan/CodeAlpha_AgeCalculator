@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Splash Screen -->
@@ -19,6 +21,131 @@
             </div>
             <h1><i class="fas fa-hourglass-start"></i> CHRONOS</h1>
             <p>Premium Age Calculator</p>
+        </div>
+    </div>
+
+    <!-- Settings Modal -->
+    <div class="modal" id="settings-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2><i class="fas fa-cog"></i> Settings</h2>
+            
+            <div class="setting-group">
+                <h3><i class="fas fa-palette"></i> Theme</h3>
+                <div class="theme-options">
+                    <div class="theme-option" data-theme="default">
+                        <div class="theme-preview default-theme"></div>
+                        <span>Default</span>
+                    </div>
+                    <div class="theme-option" data-theme="dark">
+                        <div class="theme-preview dark-theme"></div>
+                        <span>Dark</span>
+                    </div>
+                    <div class="theme-option" data-theme="ocean">
+                        <div class="theme-preview ocean-theme"></div>
+                        <span>Ocean</span>
+                    </div>
+                    <div class="theme-option" data-theme="forest">
+                        <div class="theme-preview forest-theme"></div>
+                        <span>Forest</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="setting-group">
+                <h3><i class="fas fa-font"></i> Font</h3>
+                <select id="font-selector" class="setting-select">
+                    <option value="Montserrat">Montserrat</option>
+                    <option value="Roboto">Roboto</option>
+                    <option value="Poppins">Poppins</option>
+                    <option value="Arial">Arial</option>
+                </select>
+            </div>
+            
+            <div class="setting-group">
+                <h3><i class="fas fa-magic"></i> Animations</h3>
+                <label class="switch">
+                    <input type="checkbox" id="animation-toggle" checked>
+                    <span class="slider"></span>
+                </label>
+            </div>
+            
+            <div class="setting-group">
+                <h3><i class="fas fa-language"></i> Language</h3>
+                <select id="language-selector" class="setting-select">
+                    <option value="en">English</option>
+                    <option value="es">Español</option>
+                    <option value="fr">Français</option>
+                    <option value="de">Deutsch</option>
+                </select>
+            </div>
+            
+            <button class="btn-primary save-settings">Save Settings</button>
+        </div>
+    </div>
+
+    <!-- Info Modal -->
+    <div class="modal" id="info-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2><i class="fas fa-info-circle"></i> About Chronos</h2>
+            <div class="info-content">
+                <div class="info-section">
+                    <h3><i class="fas fa-hourglass"></i> What is Chronos?</h3>
+                    <p>Chronos is a premium age calculator that helps you determine your exact age in years, months, and days. It also provides additional information like your next birthday, birth day of the week, and total days lived.</p>
+                </div>
+                
+                <div class="info-section">
+                    <h3><i class="fas fa-feather-alt"></i> Features</h3>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Precise age calculation</li>
+                        <li><i class="fas fa-check"></i> Beautiful, responsive design</li>
+                        <li><i class="fas fa-check"></i> Multiple theme options</li>
+                        <li><i class="fas fa-check"></i> Customizable settings</li>
+                        <li><i class="fas fa-check"></i> Birthday celebration</li>
+                        <li><i class="fas fa-check"></i> Share your results</li>
+                    </ul>
+                </div>
+                
+                <div class="info-section">
+                    <h3><i class="fas fa-code"></i> Technologies</h3>
+                    <p>Built with HTML5, CSS3, and vanilla JavaScript. No frameworks or libraries required.</p>
+                </div>
+                
+                <div class="info-section">
+                    <h3><i class="fas fa-user"></i> Developer</h3>
+                    <p>Created by Azmi Adan. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Share Modal -->
+    <div class="modal" id="share-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2><i class="fas fa-share-alt"></i> Share Your Age</h2>
+            <div class="share-options">
+                <button class="share-btn facebook">
+                    <i class="fab fa-facebook-f"></i> Facebook
+                </button>
+                <button class="share-btn twitter">
+                    <i class="fab fa-twitter"></i> Twitter
+                </button>
+                <button class="share-btn whatsapp">
+                    <i class="fab fa-whatsapp"></i> WhatsApp
+                </button>
+                <button class="share-btn email">
+                    <i class="fas fa-envelope"></i> Email
+                </button>
+            </div>
+            <div class="share-link">
+                <label for="share-url">Or copy this link:</label>
+                <div class="copy-input">
+                    <input type="text" id="share-url" readonly>
+                    <button id="copy-btn"><i class="fas fa-copy"></i> Copy</button>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -127,9 +254,9 @@
         <footer class="app-footer">
             <p>© <span id="current-year"></span> Chronos Age Calculator | Premium Edition</p>
             <div class="footer-icons">
-                <a href="#"><i class="fas fa-info-circle"></i></a>
-                <a href="#"><i class="fas fa-cog"></i></a>
-                <a href="#"><i class="fas fa-share-alt"></i></a>
+                <a href="#" id="info-btn"><i class="fas fa-info-circle"></i></a>
+                <a href="#" id="settings-btn"><i class="fas fa-cog"></i></a>
+                <a href="#" id="share-btn"><i class="fas fa-share-alt"></i></a>
             </div>
         </footer>
     </div>
