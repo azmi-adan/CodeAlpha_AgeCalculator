@@ -67,161 +67,29 @@ document.addEventListener('DOMContentLoaded', function() {
             futureDate: "Birth date cannot be in the future",
             settings: "Settings",
             save: "Save Settings",
-            about: "About Chronos"
-        },
-        es: {
-            title: "Calculadora de Edad Chronos",
-            tagline: "Medición de tiempo precisa para profesionales",
-            day: "Día",
-            month: "Mes",
-            year: "Año",
-            calculate: "Calcular Edad",
-            reset: "Reiniciar",
-            yourAge: "Tu Edad Es",
-            years: "Años",
-            months: "Meses",
-            days: "Días",
-            nextBirthday: "Próximo Cumpleaños",
-            birthDay: "Día de Nacimiento",
-            daysLived: "Días Vividos",
-            happyBirthday: "¡Feliz Cumpleaños!",
-            invalidDate: "Por favor ingrese una fecha válida",
-            futureDate: "La fecha de nacimiento no puede ser en el futuro",
-            settings: "Configuraciones",
-            save: "Guardar Configuraciones",
-            about: "Acerca de Chronos"
-        },
-        fr: {
-            title: "Calculateur d'Âge Chronos",
-            tagline: "Mesure de temps précise pour les professionnels",
-            day: "Jour",
-            month: "Mois",
-            year: "Année",
-            calculate: "Calculer l'Âge",
-            reset: "Réinitialiser",
-            yourAge: "Votre Âge Est",
-            years: "Ans",
-            months: "Mois",
-            days: "Jours",
-            nextBirthday: "Prochain Anniversaire",
-            birthDay: "Jour de Naissance",
-            daysLived: "Jours Vécus",
-            happyBirthday: "Joyeux Anniversaire!",
-            invalidDate: "Veuillez entrer une date valide",
-            futureDate: "La date de naissance ne peut pas être dans le futur",
-            settings: "Paramètres",
-            save: "Enregistrer les Paramètres",
-            about: "À Propos de Chronos"
-        },
-        de: {
-            title: "Chronos Altersrechner",
-            tagline: "Präzise Zeitmessung für Profis",
-            day: "Tag",
-            month: "Monat",
-            year: "Jahr",
-            calculate: "Alter Berechnen",
-            reset: "Zurücksetzen",
-            yourAge: "Ihr Alter Ist",
-            years: "Jahre",
-            months: "Monate",
-            days: "Tage",
-            nextBirthday: "Nächster Geburtstag",
-            birthDay: "Geburtstag",
-            daysLived: "Gelebte Tage",
-            happyBirthday: "Alles Gute zum Geburtstag!",
-            invalidDate: "Bitte geben Sie ein gültiges Datum ein",
-            futureDate: "Geburtsdatum kann nicht in der Zukunft liegen",
-            settings: "Einstellungen",
-            save: "Einstellungen Speichern",
-            about: "Über Chronos"
-        },
-        sw: {
-            title: "Kikokotoo cha Umri cha Chronos",
-            tagline: "Kipimo cha wakati sahihi kwa wataalamu",
-            day: "Siku",
-            month: "Mwezi",
-            year: "Mwaka",
-            calculate: "Hesabu Umri",
-            reset: "Weka Upya",
-            yourAge: "Umri Wako Ni",
-            years: "Miaka",
-            months: "Miezi",
-            days: "Siku",
-            nextBirthday: "Siku ya Kuzaliwa Inayofuata",
-            birthDay: "Siku ya Kuzaliwa",
-            daysLived: "Siku Zilizoishi",
-            happyBirthday: "Heri ya Siku ya Kuzaliwa!",
-            invalidDate: "Tafadhali ingiza tarehe sahihi",
-            futureDate: "Tarehe ya kuzaliwa haiwezi kuwa baadaye",
-            settings: "Mipangilio",
-            save: "Hifadhi Mipangilio",
-            about: "Kuhusu Chronos"
-        },
-        hi: {
-            title: "क्रोनोस आयु कैलकुलेटर",
-            tagline: "पेशेवरों के लिए सटीक समय मापन",
-            day: "दिन",
-            month: "महीना",
-            year: "साल",
-            calculate: "आयु की गणना करें",
-            reset: "रीसेट",
-            yourAge: "आपकी आयु है",
-            years: "साल",
-            months: "महीने",
-            days: "दिन",
-            nextBirthday: "अगला जन्मदिन",
-            birthDay: "जन्म दिवस",
-            daysLived: "जीवित दिन",
-            happyBirthday: "जन्मदिन मुबारक हो!",
-            invalidDate: "कृपया एक वैध तिथि दर्ज करें",
-            futureDate: "जन्म तिथि भविष्य में नहीं हो सकती",
-            settings: "सेटिंग्स",
-            save: "सेटिंग्स सहेजें",
-            about: "क्रोनोस के बारे में"
-        },
-        ar: {
-            title: "حاسبة العمر كرونوس",
-            tagline: "قياس الوقت الدقيق للمحترفين",
-            day: "يوم",
-            month: "شهر",
-            year: "سنة",
-            calculate: "حساب العمر",
-            reset: "إعادة تعيين",
-            yourAge: "عمرك هو",
-            years: "سنوات",
-            months: "أشهر",
-            days: "أيام",
-            nextBirthday: "عيد الميلاد القادم",
-            birthDay: "يوم الميلاد",
-            daysLived: "الأيام المعاشة",
-            happyBirthday: "عيد ميلاد سعيد!",
-            invalidDate: "الرجاء إدخال تاريخ صحيح",
-            futureDate: "لا يمكن أن يكون تاريخ الميلاد في المستقبل",
-            settings: "الإعدادات",
-            save: "حفظ الإعدادات",
-            about: "حول كرونوس"
-        },
-        so: {
-            title: "Xisaabiyaha Da'da Chronos",
-            tagline: "Qiyaasta waqtiga u gaar ah xirfadlayaasha",
-            day: "Maalin",
-            month: "Bil",
-            year: "Sannad",
-            calculate: "Xisaabi Da'da",
-            reset: "Dib u dejiso",
-            yourAge: "Da'daadu Waa",
-            years: "Sanno",
-            months: "Bilood",
-            days: "Maalmood",
-            nextBirthday: "Maalintii Dhalashada Xigta",
-            birthDay: "Maalintii Dhalashada",
-            daysLived: "Maalmood La Nool",
-            happyBirthday: "Dhalasho Wacan!",
-            invalidDate: "Fadlan geli taariikh sax ah",
-            futureDate: "Taariikhda dhalashadu kama noqon kartaa mustaqbal",
-            settings: "Dejinta",
-            save: "Keydso Dejinta",
-            about: "Ku saabsan Chronos"
+            about: "About Chronos",
+            copiedToClipboard: "Age results copied to clipboard!",
+            in: "in",
+            Sunday: "Sunday",
+            Monday: "Monday",
+            Tuesday: "Tuesday",
+            Wednesday: "Wednesday",
+            Thursday: "Thursday",
+            Friday: "Friday",
+            Saturday: "Saturday",
+            January: "January",
+            February: "February",
+            March: "March",
+            April: "April",
+            May: "May",
+            June: "June",
+            July: "July",
+            August: "August",
+            September: "September",
+            October: "October",
+            November: "November",
+            December: "December",
+            settingsSaved: "Settings saved successfully!"
         }
     };
 
@@ -249,16 +117,18 @@ document.addEventListener('DOMContentLoaded', function() {
     function calculateAge() {
         // Validate inputs
         const day = parseInt(dayInput.value);
-        const month = parseInt(monthInput.value);
+        const month = parseInt(monthInput.value) - 1; // JavaScript months are 0-indexed
         const year = parseInt(yearInput.value);
         
-        if (isNaN(day) || isNaN(month) || isNaN(year)) {
+        if (isNaN(day) || isNaN(month + 1) || isNaN(year)) {
             showError(translate('invalidDate'));
             return;
         }
         
-        // Validate date
+        // Validate date - Create date object properly
         const birthDate = new Date(year, month, day);
+        
+        // Check if the date is valid (handles invalid dates like Feb 30)
         if (birthDate.getDate() !== day || birthDate.getMonth() !== month || birthDate.getFullYear() !== year) {
             showError(translate('invalidDate'));
             return;
@@ -274,33 +144,68 @@ document.addEventListener('DOMContentLoaded', function() {
         // Clear any previous errors
         clearErrors();
         
-        // Calculate age
-        let ageYears = today.getFullYear() - birthDate.getFullYear();
-        let ageMonths = today.getMonth() - birthDate.getMonth();
-        let ageDays = today.getDate() - birthDate.getDate();
+        // Calculate age using proper algorithm
+        const ageResult = calculateExactAge(birthDate, today);
         
-        // Adjust for negative months/days
-        if (ageDays < 0) {
-            ageMonths--;
-            const lastMonth = new Date(today.getFullYear(), today.getMonth(), 0);
-            ageDays += lastMonth.getDate();
-        }
-        
-        if (ageMonths < 0) {
-            ageYears--;
-            ageMonths += 12;
-        }
-        
-        // Display results
-        yearsDisplay.textContent = ageYears;
-        monthsDisplay.textContent = ageMonths;
-        daysDisplay.textContent = ageDays;
+        // Display results with rolling animation
+        animateValue(yearsDisplay, 0, ageResult.years, 1000);
+        animateValue(monthsDisplay, 0, ageResult.months, 1000);
+        animateValue(daysDisplay, 0, ageResult.days, 1000);
         
         // Calculate and display additional info
         displayAdditionalInfo(birthDate);
         
         // Check if today is birthday
         checkBirthday(birthDate);
+    }
+    
+    // Fixed age calculation function
+    function calculateExactAge(birthDate, currentDate) {
+        let years = currentDate.getFullYear() - birthDate.getFullYear();
+        let months = currentDate.getMonth() - birthDate.getMonth();
+        let days = currentDate.getDate() - birthDate.getDate();
+        
+        // Adjust for negative days
+        if (days < 0) {
+            months--;
+            // Get the last day of the previous month
+            const lastMonth = new Date(currentDate.getFullYear(), currentDate.getMonth(), 0);
+            days += lastMonth.getDate();
+        }
+        
+        // Adjust for negative months
+        if (months < 0) {
+            years--;
+            months += 12;
+        }
+        
+        // Ensure non-negative values
+        years = Math.max(0, years);
+        months = Math.max(0, months);
+        days = Math.max(0, days);
+        
+        return { years, months, days };
+    }
+    
+    // Rolling number animation function
+    function animateValue(element, start, end, duration) {
+        if (start === end) {
+            element.textContent = end;
+            return;
+        }
+        
+        const range = Math.abs(end - start);
+        let current = start;
+        const increment = end > start ? 1 : -1;
+        const stepTime = Math.max(Math.floor(duration / range), 10);
+        
+        const timer = setInterval(function() {
+            current += increment;
+            element.textContent = current;
+            if (current === end) {
+                clearInterval(timer);
+            }
+        }, stepTime);
     }
     
     function displayAdditionalInfo(birthDate) {
@@ -333,19 +238,26 @@ document.addEventListener('DOMContentLoaded', function() {
         // Display birth day of week
         birthDayDisplay.textContent = daysOfWeek[birthDate.getDay()];
         
-        // Calculate days lived
-        const diffTime = Math.abs(today - birthDate);
-        const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+        // Calculate days lived (more accurate calculation)
+        const diffTime = today.getTime() - birthDate.getTime();
+        const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
         daysLivedDisplay.textContent = diffDays.toLocaleString();
         
         // Calculate next birthday
         const nextBirthday = new Date(today.getFullYear(), birthDate.getMonth(), birthDate.getDate());
-        if (nextBirthday < today) {
+        
+        // If birthday has passed this year, set to next year
+        if (nextBirthday <= today) {
             nextBirthday.setFullYear(today.getFullYear() + 1);
         }
         
-        const daysUntilBirthday = Math.ceil((nextBirthday - today) / (1000 * 60 * 60 * 24));
-        nextBirthdayDisplay.textContent = `${monthsOfYear[nextBirthday.getMonth()]} ${nextBirthday.getDate()}, ${nextBirthday.getFullYear()} (${translate('in')} ${daysUntilBirthday} ${translate('days')})`;
+        const daysUntilBirthday = Math.ceil((nextBirthday.getTime() - today.getTime()) / (1000 * 60 * 60 * 24));
+        
+        if (daysUntilBirthday === 0) {
+            nextBirthdayDisplay.textContent = `${translate('happyBirthday')} 🎉`;
+        } else {
+            nextBirthdayDisplay.textContent = `${monthsOfYear[nextBirthday.getMonth()]} ${nextBirthday.getDate()}, ${nextBirthday.getFullYear()} (${translate('in')} ${daysUntilBirthday} ${translate('days')})`;
+        }
     }
     
     function checkBirthday(birthDate) {
@@ -369,7 +281,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 document.querySelector('.result-content').appendChild(birthdayMessage);
                 
                 // Add celebration animation
-                if (document.getElementById('animation-toggle').checked) {
+                if (document.getElementById('animation-toggle') && document.getElementById('animation-toggle').checked) {
                     birthdayMessage.style.animation = 'birthdayPulse 2s infinite';
                 }
             }
@@ -378,7 +290,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     function createConfetti() {
         // Only create confetti if animations are enabled
-        if (!document.getElementById('animation-toggle').checked) return;
+        if (!document.getElementById('animation-toggle') || !document.getElementById('animation-toggle').checked) return;
         
         const colors = ['#f44336', '#e91e63', '#9c27b0', '#673ab7', '#3f51b5', '#2196f3', '#03a9f4', '#00bcd4', '#009688', '#4CAF50', '#8BC34A', '#CDDC39', '#FFEB3B', '#FFC107', '#FF9800', '#FF5722'];
         
@@ -393,7 +305,9 @@ document.addEventListener('DOMContentLoaded', function() {
             
             // Remove confetti after animation
             setTimeout(() => {
-                confetti.remove();
+                if (confetti.parentNode) {
+                    confetti.remove();
+                }
             }, 5000);
         }
     }
@@ -429,7 +343,7 @@ document.addEventListener('DOMContentLoaded', function() {
         errorElement.focus();
         
         // Shake animation for error
-        if (document.getElementById('animation-toggle').checked) {
+        if (document.getElementById('animation-toggle') && document.getElementById('animation-toggle').checked) {
             errorElement.style.animation = 'shake 0.5s';
             setTimeout(() => {
                 errorElement.style.animation = '';
@@ -471,7 +385,10 @@ document.addEventListener('DOMContentLoaded', function() {
         clearErrors();
         
         // Remove birthday celebration
-        document.querySelector('.result-card').classList.remove('birthday');
+        const resultCard = document.querySelector('.result-card');
+        if (resultCard) {
+            resultCard.classList.remove('birthday');
+        }
     }
     
     function showModal(modal) {
@@ -511,42 +428,86 @@ document.addEventListener('DOMContentLoaded', function() {
         const lang = translations[language] || translations['en'];
         
         // Update UI elements
-        document.querySelector('.app-header h1').innerHTML = `<i class="fas fa-calculator"></i> ${lang.title}`;
-        document.querySelector('.tagline').textContent = lang.tagline;
+        const headerTitle = document.querySelector('.app-header h1');
+        if (headerTitle) {
+            headerTitle.innerHTML = `<i class="fas fa-calculator"></i> ${lang.title}`;
+        }
         
-        document.querySelector('label[for="day"]').innerHTML = `<i class="fas fa-calendar-day"></i> ${lang.day}`;
-        document.querySelector('label[for="month"]').innerHTML = `<i class="fas fa-calendar-week"></i> ${lang.month}`;
-        document.querySelector('label[for="year"]').innerHTML = `<i class="fas fa-calendar-year"></i> ${lang.year}`;
+        const tagline = document.querySelector('.tagline');
+        if (tagline) {
+            tagline.textContent = lang.tagline;
+        }
         
-        document.getElementById('calculate-btn').innerHTML = `<span>${lang.calculate}</span> <i class="fas fa-arrow-right"></i>`;
-        document.getElementById('reset-btn').innerHTML = `<i class="fas fa-redo"></i> <span>${lang.reset}</span>`;
+        const dayLabel = document.querySelector('label[for="day"]');
+        if (dayLabel) {
+            dayLabel.innerHTML = `<i class="fas fa-calendar-day"></i> ${lang.day}`;
+        }
         
-        document.querySelector('.result-content h3').textContent = lang.yourAge;
-        document.querySelector('.age-unit:nth-child(1) small').textContent = lang.years;
-        document.querySelector('.age-unit:nth-child(2) small').textContent = lang.months;
-        document.querySelector('.age-unit:nth-child(3) small').textContent = lang.days;
+        const monthLabel = document.querySelector('label[for="month"]');
+        if (monthLabel) {
+            monthLabel.innerHTML = `<i class="fas fa-calendar-week"></i> ${lang.month}`;
+        }
         
-        document.querySelector('.info-card:nth-child(1) h4').textContent = lang.nextBirthday;
-        document.querySelector('.info-card:nth-child(2) h4').textContent = lang.birthDay;
-        document.querySelector('.info-card:nth-child(3) h4').textContent = lang.daysLived;
+        const yearLabel = document.querySelector('label[for="year"]');
+        if (yearLabel) {
+            yearLabel.innerHTML = `<i class="fas fa-calendar-year"></i> ${lang.year}`;
+        }
+        
+        if (calculateBtn) {
+            calculateBtn.innerHTML = `<span>${lang.calculate}</span> <i class="fas fa-arrow-right"></i>`;
+        }
+        
+        if (resetBtn) {
+            resetBtn.innerHTML = `<i class="fas fa-redo"></i> <span>${lang.reset}</span>`;
+        }
+        
+        const resultTitle = document.querySelector('.result-content h3');
+        if (resultTitle) {
+            resultTitle.textContent = lang.yourAge;
+        }
+        
+        const ageUnits = document.querySelectorAll('.age-unit small');
+        if (ageUnits.length >= 3) {
+            ageUnits[0].textContent = lang.years;
+            ageUnits[1].textContent = lang.months;
+            ageUnits[2].textContent = lang.days;
+        }
+        
+        const infoCards = document.querySelectorAll('.info-card h4');
+        if (infoCards.length >= 3) {
+            infoCards[0].textContent = lang.nextBirthday;
+            infoCards[1].textContent = lang.birthDay;
+            infoCards[2].textContent = lang.daysLived;
+        }
         
         // Update modals
-        document.querySelector('#settings-modal h2').innerHTML = `<i class="fas fa-cog"></i> ${lang.settings}`;
-        document.querySelector('#info-modal h2').innerHTML = `<i class="fas fa-info-circle"></i> ${lang.about}`;
-        document.querySelector('.save-settings').textContent = lang.save;
+        const settingsModalTitle = document.querySelector('#settings-modal h2');
+        if (settingsModalTitle) {
+            settingsModalTitle.innerHTML = `<i class="fas fa-cog"></i> ${lang.settings}`;
+        }
+        
+        const infoModalTitle = document.querySelector('#info-modal h2');
+        if (infoModalTitle) {
+            infoModalTitle.innerHTML = `<i class="fas fa-info-circle"></i> ${lang.about}`;
+        }
+        
+        if (saveSettingsBtn) {
+            saveSettingsBtn.textContent = lang.save;
+        }
     }
     
     function translate(key) {
-        const language = languageSelector.value;
+        const language = languageSelector ? languageSelector.value : 'en';
         const lang = translations[language] || translations['en'];
         return lang[key] || key;
     }
     
     function saveSettings() {
-        const theme = document.querySelector('.theme-option.active').getAttribute('data-theme');
-        const font = fontSelector.value;
-        const animationsEnabled = animationToggle.checked;
-        const language = languageSelector.value;
+        const activeTheme = document.querySelector('.theme-option.active');
+        const theme = activeTheme ? activeTheme.getAttribute('data-theme') : 'default';
+        const font = fontSelector ? fontSelector.value : 'Montserrat';
+        const animationsEnabled = animationToggle ? animationToggle.checked : true;
+        const language = languageSelector ? languageSelector.value : 'en';
         
         localStorage.setItem('chronosTheme', theme);
         localStorage.setItem('chronosFont', font);
@@ -569,22 +530,29 @@ document.addEventListener('DOMContentLoaded', function() {
         document.documentElement.setAttribute('data-theme', savedTheme);
         
         // Set active theme option
-        document.querySelector(`.theme-option[data-theme="${savedTheme}"]`).classList.add('active');
+        const themeOption = document.querySelector(`.theme-option[data-theme="${savedTheme}"]`);
+        if (themeOption) {
+            themeOption.classList.add('active');
+        }
         
         // Load font
         const savedFont = localStorage.getItem('chronosFont') || 'Montserrat';
-        fontSelector.value = savedFont;
+        if (fontSelector) {
+            fontSelector.value = savedFont;
+        }
         document.documentElement.style.setProperty('--font-family', savedFont);
         
         // Load animations setting
         const savedAnimations = localStorage.getItem('chronosAnimations');
-        if (savedAnimations !== null) {
+        if (animationToggle && savedAnimations !== null) {
             animationToggle.checked = savedAnimations === 'true';
         }
         
         // Load language
         const savedLanguage = localStorage.getItem('chronosLanguage') || 'en';
-        languageSelector.value = savedLanguage;
+        if (languageSelector) {
+            languageSelector.value = savedLanguage;
+        }
         applyTranslations(savedLanguage);
     }
     
@@ -598,56 +566,73 @@ document.addEventListener('DOMContentLoaded', function() {
             return;
         }
         
-        const birthDate = new Date(year, month, day);
+        const birthDate = new Date(year, parseInt(month) - 1, day);
         const today = new Date();
         
-        // Calculate age
-        let ageYears = today.getFullYear() - birthDate.getFullYear();
-        let ageMonths = today.getMonth() - birthDate.getMonth();
-        let ageDays = today.getDate() - birthDate.getDate();
+        // Calculate age using the fixed function
+        const ageResult = calculateExactAge(birthDate, today);
         
-        if (ageDays < 0) {
-            ageMonths--;
-            const lastMonth = new Date(today.getFullYear(), today.getMonth(), 0);
-            ageDays += lastMonth.getDate();
+        // Get additional info
+        const daysOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+        const birthDay = daysOfWeek[birthDate.getDay()];
+        
+        const diffTime = today.getTime() - birthDate.getTime();
+        const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
+        
+        const nextBirthday = new Date(today.getFullYear(), birthDate.getMonth(), birthDate.getDate());
+        if (nextBirthday <= today) {
+            nextBirthday.setFullYear(today.getFullYear() + 1);
         }
+        const daysUntilBirthday = Math.ceil((nextBirthday.getTime() - today.getTime()) / (1000 * 60 * 60 * 24));
         
-        if (ageMonths < 0) {
-            ageYears--;
-            ageMonths += 12;
-        }
-        
-        const shareText = `${translate('yourAge')}: ${ageYears} ${translate('years')}, ${ageMonths} ${translate('months')}, ${ageDays} ${translate('days')}`;
+        // Create share text with all age information
+        const shareText = `🌟 ${translate('yourAge')} 🌟\n\n` +
+                         `📅 ${ageResult.years} ${translate('years')}, ${ageResult.months} ${translate('months')}, ${ageResult.days} ${translate('days')}\n\n` +
+                         `🎂 ${translate('birthDay')}: ${birthDay}\n` +
+                         `⏳ ${translate('daysLived')}: ${diffDays.toLocaleString()}\n` +
+                         `🎈 ${translate('nextBirthday')}: ${daysUntilBirthday} ${translate('days')}`;
         
         if (navigator.share) {
             // Mobile share
             navigator.share({
-                title: 'Chronos Age Calculator',
-                text: shareText,
-                url: window.location.href
+                title: 'My Age Calculation',
+                text: shareText
             }).catch(err => {
                 console.log('Error sharing:', err);
+                copyToClipboard(shareText);
             });
-        } else if (navigator.clipboard) {
+        } else {
             // Desktop fallback - copy to clipboard
-            navigator.clipboard.writeText(shareText).then(() => {
+            copyToClipboard(shareText);
+        }
+    }
+    
+    function copyToClipboard(text) {
+        if (navigator.clipboard) {
+            navigator.clipboard.writeText(text).then(() => {
                 alert(translate('copiedToClipboard'));
             }).catch(err => {
                 console.log('Error copying:', err);
+                fallbackCopyToClipboard(text);
             });
         } else {
-            // Fallback for older browsers
-            const textArea = document.createElement('textarea');
-            textArea.value = shareText;
-            document.body.appendChild(textArea);
-            textArea.select();
-            document.execCommand('copy');
-            document.body.removeChild(textArea);
-            alert(translate('copiedToClipboard'));
+            fallbackCopyToClipboard(text);
         }
+    }
+    
+    function fallbackCopyToClipboard(text) {
+        const textArea = document.createElement('textarea');
+        textArea.value = text;
+        document.body.appendChild(textArea);
+        textArea.select();
+        document.execCommand('copy');
+        document.body.removeChild(textArea);
+        alert(translate('copiedToClipboard'));
     }
 
     // Initialize
     loadSettings();
-    fontSelector.addEventListener('change', changeFont);
+    if (fontSelector) {
+        fontSelector.addEventListener('change', changeFont);
+    }
 });

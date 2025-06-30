@@ -14,16 +14,13 @@
     --font-family: 'Montserrat', sans-serif;
 }
 
-/* Dark Theme */
-[data-theme="dark"] {
-    --primary-color: #1a1a2e;
-    --secondary-color: #16213e;
-    --accent-color: #0f3460;
-    --light-color: #e94560;
-    --dark-color: #1a1a2e;
-    --text-color: #f1f1f1;
-    --text-light: #b8b8b8;
-    --shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+[data-theme="luxury"] {
+    --primary-color: #D4AF37; /* Gold */
+    --secondary-color: #996515; /* Dark gold */
+    --accent-color: #C0C0C0; /* Silver */
+    --background-color: #1A1A1A; /* Dark background */
+    --text-color: #FFFFFF; /* White text */
+    --card-bg: #2A2A2A; /* Slightly lighter dark */
 }
 
 /* Ocean Theme */
