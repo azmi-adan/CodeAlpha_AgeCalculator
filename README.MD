@@ -1,6 +1,8 @@
 # Chronos Age Calculator - Premium Edition
 
-![Chronos Age Calculator Screenshot](./screenshot.png)  
+![Chronos Age Calculator Screenshot](./screenshot.png)
+![Chronos Age Calculator Screenshot](./image.png)
+
 [![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen)](https://azmi-adan.github.io/CodeAlpha_AgeCalculator/)
 
 A premium age calculator with advanced features and a customizable interface.
