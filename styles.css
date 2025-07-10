@@ -17,9 +17,9 @@
 [data-theme="luxury"] {
     --primary-color: #D4AF37; /* Gold */
     --secondary-color: #996515; /* Dark gold */
-    --accent-color: #C0C0C0; /* Silver */
+    --accent-color: #c0c0c0; /* Silver */
     --background-color: #1A1A1A; /* Dark background */
-    --text-color: #FFFFFF; /* White text */
+    --text-color: #252222; /* White text */
     --card-bg: #2A2A2A; /* Slightly lighter dark */
 }
 
@@ -544,7 +544,7 @@ body {
 }
 
 .dark-theme {
-    background: linear-gradient(135deg, #1a1a2e, #e94560);
+    background: linear-gradient(135deg, #bcbf58, #e94560);
 }
 
 .ocean-theme {
@@ -554,7 +554,9 @@ body {
 .forest-theme {
     background: linear-gradient(135deg, #1e3f20, #4a7856);
 }
-
+.luxury-theme {
+    background: linear-gradient(135deg, #D4AF37, #996515); /* Gold gradient */
+}
 .setting-select {
     width: 100%;
     padding: 10px 15px;
