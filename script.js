@@ -117,7 +117,7 @@ document.addEventListener('DOMContentLoaded', function() {
     function calculateAge() {
         // Validate inputs
         const day = parseInt(dayInput.value);
-        const month = parseInt(monthInput.value) - 1; // JavaScript months are 0-indexed
+        const month = parseInt(monthInput.value); // JavaScript months are 0-indexed
         const year = parseInt(yearInput.value);
         
         if (isNaN(day) || isNaN(month + 1) || isNaN(year)) {
